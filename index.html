@@ -7,23 +7,9 @@
 
   <!-- Windows XP Theme (include only one theme at a time) -->
   <link rel="stylesheet" href="https://unpkg.com/xp.css" />
-  <style>
-    body {
-      /*background-image: url("wallpaper.png"); soon*/
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-    }
+  <link rel="stylesheet" href="website/style.css" />
+ 
 
-    #window {
-      position: absolute;
-    }
-
-    #title-bar {
-      cursor: move;
-      z-index: 10;
-    }
-  </style>
 </head>
 
 <body>
@@ -53,10 +39,10 @@
       <!--<form action="https://google.com">
         <button>google</button>
       </form>-->
-      <form action="about.html">
+      <form action="website/about.html">
         <button>About</button>
       </form>
-      <form action="roadmap.html">
+      <form action="website/roadmap.html">
         <button>Roadmap</button>
       </form>
       <!--hoooly fuck-->
@@ -65,6 +51,8 @@
         <button>Bug tracker</button>
       </form>
     </div>
+
+    <script type="text/javascript" src="website/script.js"></script> 
     <!--bruh moment: https://github.com/serverless/scope-->
     <!--stolen from stackoverflow lol https://stackoverflow.com/questions/28338017/is-there-a-way-to-embed-github-code-into-an-iframe
     <iframe id="github-iframe" src=""></iframe>
@@ -78,54 +66,5 @@
             });
     </script>-->
               
-    <script>
-      //stole these from https://www.w3schools.com/howto/howto_js_draggable.asp
-      //Make the DIV element draggagle:
-      dragElement(document.getElementById("window"));
-
-      function dragElement(elmnt) {
-        var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-        if (document.getElementById("title-bar")) {
-          /* if present, the header is where you move the DIV from:*/
-          document.getElementById("title-bar").onmousedown = dragMouseDown;
-        } else {
-          /* otherwise, move the DIV from anywhere inside the DIV:*/
-          elmnt.onmousedown = dragMouseDown;
-        }
-
-        function dragMouseDown(e) {
-          e = e || window.event;
-          e.preventDefault();
-          // get the mouse cursor position at startup:
-          pos3 = e.clientX;
-          pos4 = e.clientY;
-          document.onmouseup = closeDragElement;
-          // call a function whenever the cursor moves:
-          document.onmousemove = elementDrag;
-        }
-
-        function elementDrag(e) {
-          e = e || window.event;
-          e.preventDefault();
-          // calculate the new cursor position:
-          pos1 = pos3 - e.clientX;
-          pos2 = pos4 - e.clientY;
-          pos3 = e.clientX;
-          pos4 = e.clientY;
-          // set the element's new position:
-          elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-          elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-        }
-
-        function closeDragElement() {
-          /* stop moving when mouse button is released:*/
-          document.onmouseup = null;
-          document.onmousemove = null;
-        }
-
-        function createWindow() {
-          /*soon*/
-        }
-      }
-    </script>
+   
 </body>

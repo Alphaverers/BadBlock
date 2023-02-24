@@ -1,0 +1,18 @@
+body {
+    /*background-image: url("wallpaper.png"); soon*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  #window {
+    position: absolute;
+  }
+
+  #title-bar {
+    cursor: move;
+    z-index: 10;
+  }
+  .roadmap-text{
+    margin-left: 5%;
+  }
