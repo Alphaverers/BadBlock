@@ -16,3 +16,21 @@ body {
   .roadmap-text{
     margin-left: 5%;
   }
+  
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  cursor: pointer;
+  padding: 10px;
+  width: 40%;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
