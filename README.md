@@ -26,6 +26,7 @@ wiki: https://alphaver.fandom.com/wiki/Alpha_1.0.16.05_Unr.Preview2
 * **secret stuff yet to be reveald ;)**
 
 ### lilypad
+wiki: https://alphaver.fandom.com/wiki/Alpha_1.0.16.05_13_Lilypad_QA
 
 * *maybe* remove QA key screen 
 * new dash cool down
