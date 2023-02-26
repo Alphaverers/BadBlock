@@ -16,6 +16,7 @@ wiki: https://alphaver.fandom.com/wiki/Alpha_1.0.16.05_Preview
 * remove timer
 * add new world slots
 * make hunger visible in some way
+* new music
 
 ### unr.preview2
 wiki: https://alphaver.fandom.com/wiki/Alpha_1.0.16.05_Unr.Preview2
@@ -23,7 +24,8 @@ wiki: https://alphaver.fandom.com/wiki/Alpha_1.0.16.05_Unr.Preview2
 * *maybe* remove QA key screen 
 * new dash cool down
 * make hunger visible in some way
-* **secret stuff yet to be reveald ;)**
+* **secret stuff yet to be reveald ;)** 👀
+* new music
 
 ### lilypad
 wiki: https://alphaver.fandom.com/wiki/Alpha_1.0.16.05_13_Lilypad_QA
@@ -32,7 +34,8 @@ wiki: https://alphaver.fandom.com/wiki/Alpha_1.0.16.05_13_Lilypad_QA
 * new dash cool down
 * DEBUG screen
 * make hunger visible in some way
-* **secret stuff yet to be reveald ;)**
+* **secret stuff yet to be reveald ;)** 👀
+* new music
 
 ### R4
 wiki: https://alphaver.fandom.com/wiki/Alpha_1.0.16.05_R4
