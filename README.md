@@ -36,6 +36,7 @@ wiki: https://alphaver.fandom.com/wiki/Alpha_1.0.16.05_13_Lilypad_QA
 * make hunger visible in some way
 * **secret stuff yet to be reveald ;)** 👀
 * new music
+* **Iron door mechanism recreation 0:**
 
 ### R4
 wiki: https://alphaver.fandom.com/wiki/Alpha_1.0.16.05_R4
