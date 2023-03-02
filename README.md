@@ -2,11 +2,11 @@
 
 a simple modification of alphaver version 16.05 
 
-we will release badblock for the following versions:
-* unr.preview
-* preview
-* lilypad
-* R4 (when released)
+| alphaver Version  | Badblock version | Support type |
+|-------------------|-----------------|--------------|
+| Lilypad QA        | 1.1 alpha       | Latest       |
+| Unpreview 2       | soon            | None         |
+| Preview           | soon            | None         |
 
 ## features
 these features are exclusive to their version
