@@ -2,12 +2,12 @@
 
 a simple modification of alphaver version 16.05 
 
-| alphaver Version  | Badblock version      | Will be supported? |
-|-------------------|-----------------------|--------------------|
-| R4                | waiting for release :)| yes                |
-| Lilypad QA        | 1.2 alpha             | yes                |
-| Unpreview 2       | soon                  | yes                |
-| Preview           | soon                  | yes                |
+| alphaver Version  | Badblock version      | Will be supported? | API VERSION    
+|-------------------|-----------------------|--------------------|-------------
+| R4                | waiting for release :)| yes                |  none
+| Lilypad QA        | 1.2 alpha             | yes                |  1.1-t
+| Unpreview 2       | soon                  | yes                |  none
+| Preview           | soon                  | yes                |  none
 
 
 ### preview
